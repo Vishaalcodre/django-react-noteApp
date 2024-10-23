@@ -1,0 +1,87 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+
+# Static files
+/static/
+media/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+
+# Test and coverage files
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Pytest
+.cache
+
+# Django secret key
+secret_key.txt
+
+# Local settings
+local_settings.py
+
+# Miscellaneous
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
